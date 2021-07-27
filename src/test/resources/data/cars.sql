@@ -1,0 +1,3 @@
+INSERT INTO CAR (ID, SERIAL) VALUES
+(1, 'A'),
+(2, '-B');
