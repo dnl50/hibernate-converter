@@ -1,7 +1,11 @@
 # Spring Boot Hibernate Issue Showcase
 
-Simple Spring Boot Project using Hibernate 5.4.32 to showcase an issue with JPA Attribute Converters for Basic Types
-when using converted fields in a `WHERE` Clause inside a Criteria API Query.
+Simple Spring Boot Project using Hibernate `5.6.9.Final` to showcase an issue with JPA Attribute Converters for Basic Types
+when using converted fields in a `WHERE` Clause inside a Criteria API Query ([HHH-14756](https://hibernate.atlassian.net/browse/HHH-14756)).
+
+## Prerequisites
+
+The project requires JDK 17. 
 
 ## Project Layout 
 
